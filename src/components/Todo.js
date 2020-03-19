@@ -2,7 +2,7 @@ import React from 'react'
 
 const Todo =({ onClick, completed, text }) => (
     <li>
-        test task
+        {text}
     </li>
 )
 

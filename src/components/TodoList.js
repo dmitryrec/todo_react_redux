@@ -5,7 +5,7 @@ export default function TodoList({ todos, toggleTodo }) {
     return (
         <ul>
             {todos.map(todo => (
-                <Todo/>
+                <Todo key={todo.id} {...todo}/>
             ))}
         </ul>
     )
