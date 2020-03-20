@@ -2,10 +2,11 @@ import React from 'react';
 
 export default function Link({ active, onClick, children }) {
     return (
-        <button
+        <div
             onClick = { onClick }
+            className="btn"
         >
             {children}
-        </button>
+        </div>
     )
 }

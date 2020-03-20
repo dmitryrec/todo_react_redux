@@ -4,7 +4,7 @@ import { VisibilityFilters } from '../actions';
 
 export default function FilterBlock() {
     return (
-        <div>
+        <div className="filterBlock">
             <FilterLink filter={VisibilityFilters.SHOW_ALL}>all</FilterLink>
             <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>active</FilterLink>
             <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>completed</FilterLink>
