@@ -7,7 +7,7 @@ const AddTodo = ({ dispatch }) => {
 
     return (
         <div>
-            <form onSubmit={
+            <form className="add-form" onSubmit={
                 e => {
                     e.preventDefault();
                     if(!input.value.trim()) {
@@ -19,7 +19,7 @@ const AddTodo = ({ dispatch }) => {
                 }
             }>
                 <input type="text" ref= {el => (input = el)} />
-                <button type="submit">add todo</button>
+                <button className="add-btn" type="submit">add todo</button>
             </form>
         </div>
     )
