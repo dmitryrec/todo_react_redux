@@ -59,4 +59,10 @@ body {
 .add-form {
     display: flex;
     justify-content: space-around;
+    margin: 10px;
+}
+
+.form-input {
+    border: none;
+    box-shadow: 0 0 1px black;
 }
