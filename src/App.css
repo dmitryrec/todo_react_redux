@@ -53,6 +53,7 @@ body {
     box-shadow: 0 0 1px #808080;
     cursor: pointer;
     border: 0px;
+    padding: 0 10px;
 }
 
 .add-form {
